@@ -5,7 +5,7 @@ import pickle
 
 # Load df and pipeline separately, don't overwrite df with pipe
 df = pickle.load(open('df.pkl', 'rb'))
-pipe = pickle.load(open('pipe.pkl', 'rb'))
+pipe = pickle.load(open('pipe.pkl.zip', 'rb'))
 
 st.title("Laptop Price Predictor App")
 
